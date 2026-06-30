@@ -29,7 +29,7 @@ $query = mysqli_query($koneksi, " SELECT * FROM konsultasi WHERE id_daftar='$id_
                     <?= nl2br($c['pesan']); ?>
                     <br>
                     <small><?= $c['waktu']; ?></small>
-                </div>
+                </div>  
             <?php } ?>
         <?php } ?>
 
